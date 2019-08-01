@@ -1,0 +1,23 @@
+{
+  "customerName": "TEST",
+  "customerEmail": "ignaciovl.j@gmail.com",
+  "passport": "TEST",
+  "phoneNumber": "TEST",
+  "countryDestination": "Chile",
+  "comuneDestination": "Vitacura",
+  "regionDestination": "Región Metropolitana",
+  "fullAddress": "VITACURA - Av Vitacura N°4607, Vitacura, Región Metropolitana, Chile",
+  "adults": 1,
+  "babies": 0,
+  "children": 0,
+  "arrival": "FROM_AIRPORT",
+  "vanType": "EXCLUSIVE",
+  "companyId": 2,
+  "flightNumber": "TEST",
+  "arrivalDateTime": "2019-05-16 12:12",
+  "departureDateTime": null,
+  "wheelchair": false,
+  "childCarSeat": false,
+  "specialOrder": "nada especial",
+  "trip": "ONE_WAY_TRIP"
+}

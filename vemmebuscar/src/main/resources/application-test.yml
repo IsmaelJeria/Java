@@ -1,0 +1,47 @@
+spring:
+#  jackson:
+#    time-zone: America/Santiago
+  mvc:
+    locale: es_CL
+  datasource:
+    url: jdbc:h2:mem:TEST;MVCC=true;DB_CLOSE_DELAY=-1;MODE=Oracle
+    platform: h2
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+  mail:
+    host: mail.ubatubaevoce.com.br
+    port: 465
+    protocol: smtps
+    username: teste@ubatubaevoce.com.br
+    password: Vemmebuscar2019
+    properties:
+      mail:
+        transport:
+          protocol: smtps
+        smtps:
+          auth: true
+          starttls:
+            enable: true
+  thymeleaf:
+    check-template-location: true
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+
+
+server:
+  port: 8999

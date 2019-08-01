@@ -1,0 +1,55 @@
+spring:
+#  jackson:
+#    time-zone: America/Santiago
+  mvc:
+    locale: es_CL
+  datasource:
+    url: jdbc:mysql://vemmebuscar.cjvvhcerpoek.us-east-2.rds.amazonaws.com:3288/vemmebuscar
+    platform: mysql
+    username: vemmebuscar
+    password: vemmebuscar2019x
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: false
+        use_sql_comments: true
+        format_sql: true
+  mail:
+    host: mail.ubatubaevoce.com.br
+    port: 465
+    protocol: smtps
+    username: teste@ubatubaevoce.com.br
+    password: Vemmebuscar2019
+    properties:
+      mail:
+        transport:
+          protocol: smtps
+        smtps:
+          auth: true
+          starttls:
+            enable: true
+  thymeleaf:
+    check-template-location: true
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+
+server:
+  port: 8999
+  ssl:
+    key-store: /etc/letsencrypt/live/fackafacka.com/keystore.p12
+    key-store-password: tomcat
+    key-store-type: PKCS12
+    key-alias: tomcat
+logging:
+  path: /var/tmp/
+  file: /var/tmp/vemmebuscar.log
+
+agency-mail: contato@vemmebuscar.com

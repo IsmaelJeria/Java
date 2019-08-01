@@ -1,0 +1,50 @@
+spring:
+#  jackson:
+#    time-zone: America/Santiago
+  mvc:
+    locale: es_CL
+  datasource:
+    url: jdbc:mysql://vememebuscarqa.cjvvhcerpoek.us-east-2.rds.amazonaws.com:3306/vemmebuscarqa
+    platform: mysql
+    username: vemmebuscarqa
+    password: vemmebuscarqa
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        show_sql: false
+        use_sql_comments: true
+        format_sql: true
+  mail:
+    host: mail.ubatubaevoce.com.br
+    port: 465
+    protocol: smtps
+    username: teste@ubatubaevoce.com.br
+    password: Vemmebuscar2019
+    properties:
+      mail:
+        transport:
+          protocol: smtps
+        smtps:
+          auth: true
+          starttls:
+            enable: true
+  thymeleaf:
+    check-template-location: true
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+
+server:
+  port: 8999
+logging:
+  path: /var/tmp/
+  file: /var/tmp/vemmebuscar.log
+
+agency-mail: ismael.jeria.g@gmail.com
