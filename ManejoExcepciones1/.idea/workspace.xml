@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efbb5335-52ae-41ba-8820-ab709f42379e" name="Default Changelist" comment="">
+    <list default="true" id="882707b4-0f60-42af-8e1d-b2cda9f7f125" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/domain/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/OperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manejoexcepciones1/ManejoExcepciones1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manejoexcepciones1/ManejoExcepcionesArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ManejoJavaBeans/src/beans/PersonaBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManejoInterfaces/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ManejoInterfaces/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ManejoJavaBeans/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ManejoJavaBeans/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ManejoJavaBeans/src/manejojavabeans/ManejoJavaBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManejoJavaBeans/src/manejojavabeans/ManejoJavaBeans.java" afterDir="false" />
     </list>
@@ -18,50 +24,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/manejoexcepciones1/ManejoExcepciones1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/manejointerfaces/ManejoInterfaces.java">
+        <entry file="file://$PROJECT_DIR$/src/manejoexcepciones1/ManejoExcepcionesArg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="357">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datos/AccesoDatos.java">
+        <entry file="file://$PROJECT_DIR$/src/domain/Division.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datos/ImplementacionOracle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="142">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datos/ImplementacionMySql.java">
+        <entry file="file://$PROJECT_DIR$/src/domain/OperationException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#101#102#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -81,10 +79,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/datos/AccesoDatos.java" />
-        <option value="$PROJECT_DIR$/src/datos/ImplementacionOracle.java" />
-        <option value="$PROJECT_DIR$/src/datos/implementacionMySql.java" />
-        <option value="$PROJECT_DIR$/src/manejointerfaces/ManejoInterfaces.java" />
+        <option value="$PROJECT_DIR$/src/domain/OperationException.java" />
+        <option value="$PROJECT_DIR$/src/manejoexcepciones1/ManejoExcepciones1.java" />
+        <option value="$PROJECT_DIR$/src/domain/Division.java" />
+        <option value="$PROJECT_DIR$/src/manejoexcepciones1/ManejoExcepcionesArg.java" />
       </list>
     </option>
   </component>
@@ -109,34 +107,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ManejoInterfaces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManejoInterfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="ManejoExcepciones1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManejoExcepciones1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ManejoInterfaces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManejoInterfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="ManejoExcepciones1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManejoExcepciones1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ManejoInterfaces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ManejoInterfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="ManejoExcepciones1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManejoExcepciones1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datos" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ManejoExcepciones1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManejoExcepciones1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="manejoexcepciones1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -154,13 +157,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ManejoInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="manejointerfaces.ManejoInterfaces" />
-      <module name="ManejoInterfaces" />
+  <component name="RunManager" selected="Application.ManejoExcepcionesArg">
+    <configuration name="ManejoExcepciones1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="manejoexcepciones1.ManejoExcepciones1" />
+      <module name="ManejoExcepciones1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="manejointerfaces.*" />
+          <option name="PATTERN" value="manejoexcepciones1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,9 +171,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManejoExcepcionesArg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="manejoexcepciones1.ManejoExcepcionesArg" />
+      <module name="ManejoExcepciones1" />
+      <option name="PROGRAM_PARAMETERS" value="10 ñee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manejoexcepciones1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ManejoExcepciones1" />
+      <item itemvalue="Application.ManejoExcepcionesArg" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ManejoInterfaces" />
+        <item itemvalue="Application.ManejoExcepcionesArg" />
+        <item itemvalue="Application.ManejoExcepciones1" />
       </list>
     </recent_temporary>
   </component>
@@ -179,17 +201,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="efbb5335-52ae-41ba-8820-ab709f42379e" name="Default Changelist" comment="" />
-      <created>1565120370808</created>
+      <changelist id="882707b4-0f60-42af-8e1d-b2cda9f7f125" name="Default Changelist" comment="" />
+      <created>1565300234271</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565120370808</updated>
-      <workItem from="1565120375758" duration="3153000" />
+      <updated>1565300234271</updated>
+      <workItem from="1565300237261" duration="3548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3153000" />
+    <option name="totallyTimeSpent" value="3548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -200,13 +222,13 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12080537" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -225,78 +247,47 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.12080537" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/datos/AccesoDatos.java">
+    <entry file="file://$PROJECT_DIR$/src/domain/OperationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="85">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datos/ImplementacionOracle.java">
+    <entry file="file://$PROJECT_DIR$/src/domain/Division.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="142">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datos/ImplementacionMySql.java">
+    <entry file="file://$PROJECT_DIR$/src/domain/ManejoExcepcionesArg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manejointerfaces/ManejoInterfaces.java">
+    <entry file="file://$PROJECT_DIR$/src/manejoexcepciones1/ManejoExcepciones1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manejoexcepciones1/ManejoExcepcionesArg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
